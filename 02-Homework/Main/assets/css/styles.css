@@ -198,3 +198,34 @@ main {
 }
 
 /* END CONTACT FORM PAGE */
+
+
+/* media breakpoints */
+
+@media (min-width: 360px){
+  .roundimg {
+    display: none;
+  }
+}
+
+@media (min-width: 576px){
+.roundimg {
+  display: none;
+}
+}
+
+@media (min-width: 768px){
+.roundimg {
+  display: none;
+}
+}
+
+@media (min-width: 992px){
+.roundimg {
+  display: none;
+}
+}
+
+@media (min-width: 1200px){
+  
+}
