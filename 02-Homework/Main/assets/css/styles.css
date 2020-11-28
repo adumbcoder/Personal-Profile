@@ -4,7 +4,10 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
   /* Visual */
-  background-image: url("../imgs/ignasi_pattern_s.png");
+  background-image: url("../../assets/imgs/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 70%;
 }
 
 html {
@@ -33,14 +36,14 @@ main {
 /* create styles for use for all white main boxes */
 .block {
   background-color: #fff;
-
   padding: 30px;
   margin-bottom: 30px;
+  border-radius: 20px;
 }
 
 .block-header {
   /* Typography */
-  color: #4aaaa5;
+  color: navy;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
 }
@@ -152,7 +155,10 @@ main {
   /* Box-model */
   width: 200px;
   margin: 0 20px 10px 0;
+  border-radius: 10%;
 }
+
+
 /* END ABOUT-ME PAGE */
 
 
