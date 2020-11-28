@@ -209,20 +209,20 @@ main {
 }
 
 @media (min-width: 576px){
-.roundimg {
-  display: none;
+  .roundimg {
+    display: none;
 }
 }
 
 @media (min-width: 768px){
-.roundimg {
-  display: none;
+  .roundimg {
+    display: none;
 }
 }
 
-@media (min-width: 992px){
-.roundimg {
-  display: none;
+@media (min-width: 990px){
+  .roundimg {
+    display: none;
 }
 }
 
