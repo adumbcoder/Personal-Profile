@@ -24,14 +24,6 @@ main {
 }
 
 
-.navbar {
-   height:50px;
-}
-
-.roundimg {
-  height:120px;
-  width:120px;
-}
 
 /* create styles for use for all white main boxes */
 .block {
@@ -66,10 +58,18 @@ main {
   color: #4aaaa5;
 }
 
+
 .navbar {
   background: white;
   border: none;
+  height: 50px;
 }
+
+.roundimg {
+  height:120px;
+  width:120px;
+}
+
 
 /* media query for nav background color change */
 @media only screen and (max-width: 767px) {
@@ -202,30 +202,15 @@ main {
 
 /* media breakpoints */
 
-@media (min-width: 360px){
-  .roundimg {
-    display: none;
+@media (max-width: 575px){
+  .smNavBar{
+    background-color: rgb(140, 13, 224);
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    border-radius: 10px;
   }
-}
-
-@media (min-width: 576px){
-  .roundimg {
-    display: none;
-}
-}
-
-@media (min-width: 768px){
-  .roundimg {
-    display: none;
-}
-}
-
-@media (min-width: 990px){
-  .roundimg {
-    display: none;
-}
-}
-
-@media (min-width: 1200px){
   
 }
+
