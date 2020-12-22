@@ -38,6 +38,10 @@ html {
   margin-bottom: 40px;
 
 }
+
+.center {
+  text-align: center;
+}
 .block-header {
   /* Typography */
   color:#ae00ff;
