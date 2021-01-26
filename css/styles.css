@@ -272,7 +272,7 @@ img {
     padding-top: 3px;
   }
   .contactMeFoot {
-      position: relative;
+      position: fixed;
       bottom: 0;
   }
   /* END FOOTER */
