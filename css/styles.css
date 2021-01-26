@@ -1,0 +1,344 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    justify-content: center;
+}
+svg {
+    width: 80%;
+}
+
+body {
+    background: linear-gradient(180deg, #89c2d9 45%, #2c7da0 55%);
+    width: 100%;
+    height: 100vh;
+}
+
+#intro {
+        background: linear-gradient(90deg, #89c2d9 50%, #2c7da0 50%);
+        width: 100%;
+        height: 100vh;
+}
+
+
+/* index.html */
+/* click me style and animation */
+p a {
+    color: white;
+}
+.clickMe {
+    opacity: 0;
+    text-align: center;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 25px;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+    color: white;
+    animation: fadeIn 3s ease 3s,
+               pulsing 1s infinite 4s;
+    animation-fill-mode: forwards;
+               
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+} 
+
+@keyframes fadeOut {
+    100% {
+        opacity: 1;
+    }
+    0% {
+        opacity: 0;
+    }
+}
+
+@keyframes pulsing {
+    0% {
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+    }
+    60% {
+        box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+
+}
+
+
+/* SVG style and animation */
+#logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fill 0.5s ease forwards 3s;
+}
+
+#logo path:nth-child(1) {
+    stroke-dasharray: 144;
+    stroke-dashoffset: 144;
+    animation:  line-anim 2s ease forwards;
+}
+#logo path:nth-child(2) {
+    stroke-dasharray: 236;
+    stroke-dashoffset: 236;
+    animation:  line-anim 2s ease forwards 0.3s;
+}
+#logo path:nth-child(3) {
+    stroke-dasharray: 217;
+    stroke-dashoffset: 217;
+    animation:  line-anim 2s ease forwards 0.6s;
+}
+#logo path:nth-child(4) {
+    stroke-dasharray: 239;
+    stroke-dashoffset: 239;
+    animation:  line-anim 2s ease forwards 0.9s;
+}
+#logo path:nth-child(5) {
+    stroke-dasharray: 215;
+    stroke-dashoffset: 215;
+    animation:  line-anim 2s ease forwards 1.2s;
+}
+#logo path:nth-child(6) {
+    stroke-dasharray: 213;
+    stroke-dashoffset: 213;
+    animation:  line-anim 2s ease forwards 1.5s;
+}
+#logo path:nth-child(7) {
+    stroke-dasharray: 193;
+    stroke-dashoffset: 193;
+    animation:  line-anim 2s ease forwards 1.8s;
+}
+#logo path:nth-child(8) {
+    stroke-dasharray: 108;
+    stroke-dashoffset: 108;
+    animation:  line-anim 2s ease forwards 1.5s;
+}
+#logo path:nth-child(9) {
+    stroke-dasharray: 219;
+    stroke-dashoffset: 219;
+    animation:  line-anim 2s ease forwards 1.2s;
+}
+#logo path:nth-child(10) {
+    stroke-dasharray: 235;
+    stroke-dashoffset: 235;
+    animation:  line-anim 2s ease forwards 0.9s;
+}
+#logo path:nth-child(11) {
+    stroke-dasharray: 206;
+    stroke-dashoffset: 206;
+    animation:  line-anim 2s ease forwards 0.6s;
+}
+#logo path:nth-child(12) {
+    stroke-dasharray: 261;
+    stroke-dashoffset: 261;
+    animation:  line-anim 2s ease forwards 0.3s;
+}
+#logo path:nth-child(13) {
+    stroke-dasharray: 217;
+    stroke-dashoffset: 217;
+    animation:  line-anim 2s ease forwards;
+}
+
+@keyframes line-anim {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fill {
+    from {
+        fill:transparent;
+    }
+    to {
+        fill: white;
+    }
+}
+
+
+/* home.html */
+
+img {
+    margin-bottom: 15px;
+}
+
+.block {
+    /* blur effects for the main boxes */
+    background: rgba( 255, 255, 255, 0.10 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    border-radius: 10px;
+
+    font-size: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: auto;
+    color: white;
+  }
+  .container {
+    margin-top: 20px;
+    margin-bottom: 60px;
+
+  
+  }
+  
+  .centerText {
+    text-align: center;
+  }
+
+  .block-header {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+    color: white;
+  }
+ 
+  .connect-header {
+    font-size: 25px;
+  }
+  
+  .connect-photo {
+    width: 55px;
+    height: 55px;
+  }
+  
+  #images {
+    padding-top: 15px;
+    text-align: center;
+  }
+ 
+  /* home.html Links */
+  
+  
+
+  .contactLink p {
+    color: white;
+  }
+  
+  .portfolioLink p {
+    text-align: center;
+    border-bottom: gray solid 2px;
+    color: white;
+    
+  }
+
+  .portLinkImg {
+      height: 30vh;
+      width: 100%;
+      margin-top: 15px;
+  }
+
+  /* BEGIN FOOTER */
+  .footer {
+    /* Positioning */
+    position: relative;
+    bottom: 0;
+  
+  
+    /* Box-model */
+    width: 100%;
+    height: 60px;
+    
+  
+    /* Visual */
+    background-color: rgb(138, 138, 138);
+  }
+  
+  .text-muted-footer {
+    /* Box-model */
+    margin-top: 15px;
+  
+    /* Typography */
+    ;
+  }
+  
+  .two-toned-footer-color {
+    /* Box-model */
+    height: 6px;
+    padding-top: 3px;
+  }
+  .contactMeFoot {
+      position: absolute;
+      bottom: 0;
+  }
+  /* END FOOTER */
+  /* --- END STYLES FOR ALL PAGES --- */
+  
+  /* --- PAGE-SPECIFIC STYLES --- */
+  /* ABOUT-ME PAGE */
+  .about-me-header {
+    /* Positioning */
+    margin-bottom: 25px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+  
+    /* Typography */
+    font-size: 28px;
+    font-weight: bold;
+    color: #4aaaa5;
+  }
+  
+  #about-image {
+    /* Positioning */
+    float: left;
+  
+    /* Box-model */
+    width: 200px;
+    margin: 0 20px 10px 0;
+    border-radius: 10%;
+  }
+  
+  
+  /* END ABOUT-ME PAGE */
+  
+  
+  /* PORTFOLIO PAGE */
+  .port-image {
+    margin: 20px auto;
+  }
+  /* END PORTFOLIO PAGE */
+  
+  
+  /* CONTACT FORM PAGE  */
+  .form-control {
+    /* give input boxes right angles */
+    border-radius: 10px;
+  
+    /* keep from horizontally resizing text area */
+    min-width: 100%;
+    max-width: 100%;
+  }
+  
+  .submit-btn {
+    /* Box-model */
+    margin-left: 15px;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: lighter;
+  
+    /* Typography */
+    color: white;
+    background-color: #012a4a;
+    /* Visual */
+    ;
+    border: 0;
+    border-radius: 10px;
+  }
+  
+  .submit-btn:hover {
+    opacity: .7;
+  }
+  
