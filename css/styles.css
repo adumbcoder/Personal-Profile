@@ -11,9 +11,9 @@ svg {
 }
 
 body {
-    background: linear-gradient(180deg, #89c2d9 45%, #2c7da0 55%);
+    background: linear-gradient(90deg, #89c2d9 45%, #2c7da0 55%);
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 #intro {
