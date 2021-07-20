@@ -2,7 +2,7 @@ This is my personal portfolio page. It has a custom SVG intro and animation. An 
 
 
 
-URL: https://adumbcoder.github.io/personalprofile/
+URL: https://adumbcoder.github.io/PersonalProfile/
 SVG MAKER : https://www.figma.com/
 color palette: https://coolors.co/
 
