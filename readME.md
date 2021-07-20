@@ -1,4 +1,4 @@
-This is my personal portfolio page. It has a custom SVG intro and animation. An about me, contact and projects page.
+This is my personal portfolio page. It has an about me, contact and projects page.
 
 
 
