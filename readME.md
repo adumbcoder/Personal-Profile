@@ -5,15 +5,15 @@
 
 
   
-  *[Description](#description)
-    *[Installation](#installation)
-    *[Usage](#usage)
-    *[Contributions](#contributions)
-    *[Tests](#tests)
-    *[License](#license)
-    *[Questions](#questions)
-    *[GitHub](#github)
-    *[Email](#email)
+  [Description](#description)
+    [Installation](#installation)
+    [Usage](#usage)
+    [Contributions](#contributions)
+    [Tests](#tests)
+    [License](#license)
+    [Questions](#questions)
+    [GitHub](#github)
+    [Email](#email)
     
   ## Description:
   This is my personal portfolio page. Contains projects, about me, and ways to contact me.
