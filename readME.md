@@ -17,6 +17,8 @@
     
   ## Description:
   This is my personal portfolio page. Contains projects, about me, and ways to contact me.
+  
+  color palette: https://coolors.co/
 
   ### Installation:
   n/a
@@ -44,5 +46,5 @@
 
 
 
-color palette: https://coolors.co/
+
 
