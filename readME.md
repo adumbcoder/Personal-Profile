@@ -7,7 +7,7 @@
   
   [Description](#description) |
     [Installation](#installation) |
-    [Usage](#usage) |
+    [URL](#url) |
     [Contributions](#contributions) |
     [Tests](#tests) |
     [License](#license) |
@@ -21,8 +21,8 @@
   ### Installation:
   n/a
 
-  ### Usage:
-  n/a
+  ### URL:
+  https://adumbcoder.github.io/PersonalProfile/
 
   ### Contributions:
   n/a
