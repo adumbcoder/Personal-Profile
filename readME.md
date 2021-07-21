@@ -5,14 +5,14 @@
 
 
   
-  [Description](#description)
-    [Installation](#installation)
-    [Usage](#usage)
-    [Contributions](#contributions)
-    [Tests](#tests)
-    [License](#license)
-    [Questions](#questions)
-    [GitHub](#github)
+  [Description](#description) |
+    [Installation](#installation) |
+    [Usage](#usage) |
+    [Contributions](#contributions) |
+    [Tests](#tests) |
+    [License](#license) |
+    [Questions](#questions) |
+    [GitHub](#github) |
     [Email](#email)
     
   ## Description:
