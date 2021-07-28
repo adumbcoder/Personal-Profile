@@ -24,7 +24,7 @@
   n/a
 
   ### URL:
-  https://adumbcoder.github.io/PersonalProfile/
+  https://adumbcoder.github.io/Personal-Profile/
 
   ### Contributions:
   n/a
