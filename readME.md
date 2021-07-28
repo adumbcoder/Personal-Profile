@@ -13,7 +13,8 @@
     [License](#license) |
     [Questions](#questions) |
     [GitHub](#github) |
-    [Email](#email)
+    [Email](#email) |
+    [Screenshots](#screenshots)
     
   ## Description:
   This is my personal portfolio page. Contains projects, about me, and ways to contact me.
@@ -33,7 +34,7 @@
   n/a
 
   ### License:
-
+  
   [Common License source](https://opensource.org/licenses)
   ## Questions.
   ### GitHub:
@@ -41,7 +42,9 @@
 
   ### Email:
   pickensprogramming@gmail.com
-
+  
+  ## Screenshots:
+  ![homepage screenshot](https://github.com/adumbcoder/Personal-Profile/blob/main/images/profileScreenshot.jpg?raw=true)
   -[Back to Top](#)
 
 
